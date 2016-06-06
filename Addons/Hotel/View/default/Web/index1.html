@@ -1,0 +1,79 @@
+<include file="./Addons/Hotel/View/default/Web/header.html"/>
+<body>
+	<div class="container">
+		<div id='mySwipe' class='swipe'>
+		  <div class='swipe-wrap'>
+		    <notempty name="hotel.image1">
+		      <div><image src="{$hotel.image1|get_cover_url}"></div>
+		    </notempty>
+		    <notempty name="hotel.image2">
+		      <div><image src="{$hotel.image2|get_cover_url}"></div>
+		    </notempty>
+		    <notempty name="hotel.image3">
+		      <div><image src="{$hotel.image3|get_cover_url}"></div>
+		    </notempty>
+		    <notempty name="hotel.image4">
+		      <div><image src="{$hotel.image4|get_cover_url}"></div>
+		    </notempty>
+		    <notempty name="hotel.image5">
+		      <div><image src="{$hotel.image5|get_cover_url}"></div>
+		    </notempty>
+		  </div>
+		  <ol class="swipe-idx">
+		    <notempty name="hotel.image1">
+	        	<li class="cur"></li>
+		    </notempty>
+	        <notempty name="hotel.image2">
+	        	<li></li>
+		    </notempty>
+		    <notempty name="hotel.image3">
+	        	<li></li>
+		    </notempty>
+		    <notempty name="hotel.image4">
+	        	<li></li>
+		    </notempty>
+		    <notempty name="hotel.image5">
+	        	<li></li>
+		    </notempty>
+	      </ol>
+		</div>
+		<div class="nav-main">
+			<div class="col col12 c6 fl tel" onclick="javascript:window.location.href='tel:{$hotel['tel']}';"><span class="fa fa-phone"></span><span>{$hotel.tel}</span></div>
+			<div class="col col4 c1 fl" onclick="javascript:window.location.href='{$url_about}'"><i class="fa fa-bank"></i><span>酒店介绍</span></div>
+			<div class="col col4 c2 fl" onclick="javascript:window.location.href='{$url_selectdata}'"><i class="fa fa-shopping-cart"></i><span>在线订房</span></div>
+			<div class="col col4 c3 fl"  onclick="javascript:window.location.href='{$url_my}'"><i class="fa fa-key"></i><span>我的订单</span></div>
+			<div class="col col8 c4 fl"  onclick="javascript:window.location.href='{$url_map}'"><i class="fa fa-taxi"></i><span>{$hotel.address}</span></div>
+			<div class="col col4 c5 fl"><i class="fa fa-photo"></i><span>酒店相册</span></div>
+		</div>
+		</div>
+	</div>
+</body>
+<script src='{:ADDON_PUBLIC_PATH}/js/swipe.js'></script>
+<script>
+
+var elem = document.getElementById('mySwipe');
+window.mySwipe = Swipe(elem, {
+  startSlide: 1,
+  auto: 3000,
+  callback: function(index, element) {
+    $(".swipe-idx").children().removeClass("cur");
+    $(".swipe-idx li").eq(index-1).addClass("cur");
+  },
+  transitionEnd: function(index, element) {}
+});
+
+</script>
+<script type="text/javascript">
+window.shareData = {  
+            "moduleName":"Hotels",
+            "moduleID":"{$hotel[0]['id']}",
+            "imgUrl": "{$hotel[0]['image']|get_cover_url}", 
+            "timeLineLink": "{:addons_url('Hotel://Web/index',array('token' => $this->token))}",
+            "sendFriendLink": "{:addons_url('Hotel://Web/index',array('token' => $this->token))}",
+            "weiboLink": "{:addons_url('Hotel://Web/index',array('token' => $this->token))}",
+            "tTitle": "{$metaTitle}",
+            "tContent": "{$metaTitle}"
+        };
+</script>
+{$shareScript}
+</html>

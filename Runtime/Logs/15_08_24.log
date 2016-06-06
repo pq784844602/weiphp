@@ -1,0 +1,551 @@
+[ 2015-08-24T16:26:08+08:00 ] 183.6.129.98 /weiphp/
+NOTIC: [8] Undefined index: uid D:\wwwroot\zhangzizhongon\wwwroot\weiphp\ThinkPHP\Library\Think\Controller.class.php 第 135 行.
+SQL: SHOW COLUMNS FROM `wp_member` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_member` WHERE ( `uid` = 0 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: uid D:\wwwroot\zhangzizhongon\wwwroot\weiphp\ThinkPHP\Library\Think\Controller.class.php 第 140 行.
+
+[ 2015-08-24T16:26:08+08:00 ] 183.6.129.98 /weiphp/index.php?s=/home/index/main.html
+NOTIC: [8] Undefined index: uid D:\wwwroot\zhangzizhongon\wwwroot\weiphp\ThinkPHP\Library\Think\Controller.class.php 第 135 行.
+SQL: SHOW COLUMNS FROM `wp_member` [ RunTime:0.015625s ]
+SQL: SELECT * FROM `wp_member` WHERE ( `uid` = 0 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: uid D:\wwwroot\zhangzizhongon\wwwroot\weiphp\ThinkPHP\Library\Think\Controller.class.php 第 140 行.
+
+[ 2015-08-24T16:26:08+08:00 ] 183.6.129.98 /weiphp/index.php?s=/home/user/login.html
+NOTIC: [8] Undefined index: uid D:\wwwroot\zhangzizhongon\wwwroot\weiphp\ThinkPHP\Library\Think\Controller.class.php 第 135 行.
+SQL: SHOW COLUMNS FROM `wp_member` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_member` WHERE ( `uid` = 0 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: uid D:\wwwroot\zhangzizhongon\wwwroot\weiphp\ThinkPHP\Library\Think\Controller.class.php 第 140 行.
+NOTIC: [8] Undefined index: from D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Home\Controller\UserController.class.php 第 107 行.
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 40 行.
+SQL: SHOW COLUMNS FROM `wp_addons` [ RunTime:0.015625s ]
+SQL: SELECT * FROM `wp_addons` WHERE ( `status` = 1 ) AND ( `type` = 1 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_addons` [ RunTime:0.015625s ]
+SQL: SHOW COLUMNS FROM `wp_member_public` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_member_public` WHERE ( `token` = -1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_member_public_link` [ RunTime:0.015625s ]
+SQL: SELECT `addon_status` FROM `wp_member_public_link` WHERE ( `uid` = null ) AND ( `mp_id` = null ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.281250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.281250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-24T16:26:10+08:00 ] 183.6.129.98 /weiphp/index.php?s=/Home/User/verify.html
+NOTIC: [8] Undefined index: uid D:\wwwroot\zhangzizhongon\wwwroot\weiphp\ThinkPHP\Library\Think\Controller.class.php 第 135 行.
+SQL: SHOW COLUMNS FROM `wp_member` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_member` WHERE ( `uid` = 0 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: uid D:\wwwroot\zhangzizhongon\wwwroot\weiphp\ThinkPHP\Library\Think\Controller.class.php 第 140 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015625s ]
+
+[ 2015-08-24T16:26:17+08:00 ] 183.6.129.98 /weiphp/index.php?s=/Home/User/verify.html&random=0.3709201033311952
+NOTIC: [8] Undefined index: uid D:\wwwroot\zhangzizhongon\wwwroot\weiphp\ThinkPHP\Library\Think\Controller.class.php 第 135 行.
+SQL: SHOW COLUMNS FROM `wp_member` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_member` WHERE ( `uid` = 0 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: uid D:\wwwroot\zhangzizhongon\wwwroot\weiphp\ThinkPHP\Library\Think\Controller.class.php 第 140 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-24T16:26:22+08:00 ] 183.6.129.98 /weiphp/index.php?s=/home/user/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: uid D:\wwwroot\zhangzizhongon\wwwroot\weiphp\ThinkPHP\Library\Think\Controller.class.php 第 135 行.
+SQL: SHOW COLUMNS FROM `wp_member` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_member` WHERE ( `uid` = 0 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: uid D:\wwwroot\zhangzizhongon\wwwroot\weiphp\ThinkPHP\Library\Think\Controller.class.php 第 140 行.
+SQL: SHOW COLUMNS FROM `wp_ucenter_member` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_ucenter_member` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `wp_ucenter_member` SET `last_login_time`=1440404782,`last_login_ip`='3070656866' WHERE ( `id` = 1 ) [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_member` [ RunTime:0.000000s ]
+SQL: SELECT `uid`,`nickname`,`sex`,`birthday`,`qq`,`score`,`login`,`reg_ip`,`reg_time`,`last_login_ip`,`last_login_time`,`status`,`public_count`,`extra_field` FROM `wp_member` WHERE ( `uid` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `wp_member` SET `login`=`login`+1,`last_login_time`=1440404782,`last_login_ip`='3070656866' WHERE ( `uid` = 1 ) [ RunTime:0.015625s ]
+SQL: SHOW COLUMNS FROM `wp_action` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_action` WHERE ( `name` = 'user_login' ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2015-08-24T16:26:22+08:00 ] 183.6.129.98 /weiphp/index.php?s=/home/index/main.html
+SQL: SHOW COLUMNS FROM `wp_member` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_member` WHERE ( `uid` = 1 ) LIMIT 1   [ RunTime:0.015625s ]
+NOTIC: [8] Undefined index: uid D:\wwwroot\zhangzizhongon\wwwroot\weiphp\ThinkPHP\Library\Think\Controller.class.php 第 140 行.
+SQL: SHOW COLUMNS FROM `wp_member_public_link` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_member_public_link` WHERE ( uid=1 ) ORDER BY is_use desc  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_member_public` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_member_public` WHERE ( `id` IN ('107','108') ) ORDER BY FIND_IN_SET(id,"107,108")  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_addons` [ RunTime:0.015625s ]
+SQL: SELECT * FROM `wp_addons` WHERE ( `type` = 1 ) ORDER BY id DESC LIMIT 0,15   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_addons` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_member_public` WHERE ( `token` = '454455' ) LIMIT 1   [ RunTime:0.015625s ]
+SQL: SELECT `addon_status` FROM `wp_member_public_link` WHERE ( `uid` = 1 ) AND ( `mp_id` = 107 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_addons` WHERE ( `type` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 98 行.
+NOTIC: [8] Undefined index: _controller D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 98 行.
+SQL: SHOW COLUMNS FROM `wp_addons` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_addons` WHERE ( `status` = 1 ) AND ( `type` = 1 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_member_public` WHERE ( `token` = '454455' ) LIMIT 1   [ RunTime:0.015625s ]
+SQL: SELECT `addon_status` FROM `wp_member_public_link` WHERE ( `uid` = 1 ) AND ( `mp_id` = 107 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+SQL: SHOW COLUMNS FROM `wp_addon_category` [ RunTime:0.015625s ]
+SQL: SELECT * FROM `wp_addon_category` ORDER BY sort asc, id desc  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: home_memberpublic D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 105 行.
+NOTIC: [8] Undefined index: home_creditconfig_lists D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 107 行.
+NOTIC: [8] Undefined index: home_keyword D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 108 行.
+NOTIC: [8] Undefined index: home_cascade D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 109 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Undefined index: Chat D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant addons_url - assumed 'addons_url' D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Undefined index: Wecome D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant addons_url - assumed 'addons_url' D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Undefined index: UserCenter D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant addons_url - assumed 'addons_url' D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Undefined index: CustomMenu D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant addons_url - assumed 'addons_url' D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Undefined index: Card D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant addons_url - assumed 'addons_url' D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Undefined index: Leaflets D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant addons_url - assumed 'addons_url' D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Undefined index: CustomReply D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant addons_url - assumed 'addons_url' D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Undefined index: Tongji D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant addons_url - assumed 'addons_url' D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Undefined index: Vote D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant addons_url - assumed 'addons_url' D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Undefined index: Suggestions D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant addons_url - assumed 'addons_url' D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Undefined index: Survey D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant addons_url - assumed 'addons_url' D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Undefined index: Coupon D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant addons_url - assumed 'addons_url' D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Undefined index: Scratch D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant addons_url - assumed 'addons_url' D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Undefined index: Exam D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant addons_url - assumed 'addons_url' D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Undefined index: Test D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant addons_url - assumed 'addons_url' D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Undefined index: YouaskService D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant addons_url - assumed 'addons_url' D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Undefined index: Robot D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant addons_url - assumed 'addons_url' D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Undefined index: Extensions D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant addons_url - assumed 'addons_url' D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Undefined index: WeiSite D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant addons_url - assumed 'addons_url' D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Undefined index: Forms D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant addons_url - assumed 'addons_url' D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Undefined index: Shop D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant addons_url - assumed 'addons_url' D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Undefined index: Hotel D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant addons_url - assumed 'addons_url' D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Undefined index: Donate D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant addons_url - assumed 'addons_url' D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 125 行.
+NOTIC: [8] Undefined index: HelloWorld D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 125 行.
+NOTIC: [8] Use of undefined constant addons_url - assumed 'addons_url' D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 125 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 125 行.
+NOTIC: [8] Undefined index: Diy D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 125 行.
+NOTIC: [8] Use of undefined constant addons_url - assumed 'addons_url' D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 125 行.
+NOTIC: [8] Undefined variable: model D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 153 行.
+NOTIC: [8] Undefined variable: model D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Runtime\Cache\Home\413161ce60857f3111b8e40283dda29e.php 第 155 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.125000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.125000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-24T16:26:26+08:00 ] 183.6.129.98 /weiphp/index.php?s=/Home/User/logout.html
+SQL: SHOW COLUMNS FROM `wp_member` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_member` WHERE ( `uid` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: uid D:\wwwroot\zhangzizhongon\wwwroot\weiphp\ThinkPHP\Library\Think\Controller.class.php 第 140 行.
+SQL: SHOW COLUMNS FROM `wp_member_public_link` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_member_public_link` WHERE ( uid=1 ) ORDER BY is_use desc  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_member_public` [ RunTime:0.015625s ]
+SQL: SELECT * FROM `wp_member_public` WHERE ( `id` IN ('107','108') ) ORDER BY FIND_IN_SET(id,"107,108")  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_member` [ RunTime:0.000000s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.187500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.187500s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-24T16:26:28+08:00 ] 183.6.129.98 /weiphp/index.php?s=/Home/User/login.html
+NOTIC: [8] Undefined index: uid D:\wwwroot\zhangzizhongon\wwwroot\weiphp\ThinkPHP\Library\Think\Controller.class.php 第 135 行.
+SQL: SHOW COLUMNS FROM `wp_member` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_member` WHERE ( `uid` = 0 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: uid D:\wwwroot\zhangzizhongon\wwwroot\weiphp\ThinkPHP\Library\Think\Controller.class.php 第 140 行.
+NOTIC: [8] Undefined index: from D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Home\Controller\UserController.class.php 第 107 行.
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 40 行.
+SQL: SHOW COLUMNS FROM `wp_addons` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_addons` WHERE ( `status` = 1 ) AND ( `type` = 1 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_addons` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_member_public` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_member_public` WHERE ( `token` = -1 ) LIMIT 1   [ RunTime:0.015625s ]
+SQL: SHOW COLUMNS FROM `wp_member_public_link` [ RunTime:0.000000s ]
+SQL: SELECT `addon_status` FROM `wp_member_public_link` WHERE ( `uid` = null ) AND ( `mp_id` = null ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.062500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062500s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-24T16:26:29+08:00 ] 183.6.129.98 /weiphp/index.php?s=/Home/User/verify.html
+NOTIC: [8] Undefined index: uid D:\wwwroot\zhangzizhongon\wwwroot\weiphp\ThinkPHP\Library\Think\Controller.class.php 第 135 行.
+SQL: SHOW COLUMNS FROM `wp_member` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_member` WHERE ( `uid` = 0 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: uid D:\wwwroot\zhangzizhongon\wwwroot\weiphp\ThinkPHP\Library\Think\Controller.class.php 第 140 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-24T16:26:41+08:00 ] 183.60.35.29 /weiphp/
+NOTIC: [8] Undefined index: uid D:\wwwroot\zhangzizhongon\wwwroot\weiphp\ThinkPHP\Library\Think\Controller.class.php 第 135 行.
+SQL: SHOW COLUMNS FROM `wp_member` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_member` WHERE ( `uid` = 0 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: uid D:\wwwroot\zhangzizhongon\wwwroot\weiphp\ThinkPHP\Library\Think\Controller.class.php 第 140 行.
+
+[ 2015-08-24T16:26:41+08:00 ] 183.60.35.29 /weiphp/index.php?s=/home/index/main.html
+NOTIC: [8] Undefined index: uid D:\wwwroot\zhangzizhongon\wwwroot\weiphp\ThinkPHP\Library\Think\Controller.class.php 第 135 行.
+SQL: SHOW COLUMNS FROM `wp_member` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_member` WHERE ( `uid` = 0 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: uid D:\wwwroot\zhangzizhongon\wwwroot\weiphp\ThinkPHP\Library\Think\Controller.class.php 第 140 行.
+
+[ 2015-08-24T16:26:41+08:00 ] 180.153.201.24 /weiphp/
+NOTIC: [8] Undefined index: uid D:\wwwroot\zhangzizhongon\wwwroot\weiphp\ThinkPHP\Library\Think\Controller.class.php 第 135 行.
+SQL: SHOW COLUMNS FROM `wp_member` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_member` WHERE ( `uid` = 0 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: uid D:\wwwroot\zhangzizhongon\wwwroot\weiphp\ThinkPHP\Library\Think\Controller.class.php 第 140 行.
+
+[ 2015-08-24T16:26:41+08:00 ] 180.153.201.24 /weiphp/index.php?s=/home/index/main.html
+NOTIC: [8] Undefined index: uid D:\wwwroot\zhangzizhongon\wwwroot\weiphp\ThinkPHP\Library\Think\Controller.class.php 第 135 行.
+SQL: SHOW COLUMNS FROM `wp_member` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_member` WHERE ( `uid` = 0 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: uid D:\wwwroot\zhangzizhongon\wwwroot\weiphp\ThinkPHP\Library\Think\Controller.class.php 第 140 行.
+
+[ 2015-08-24T16:26:41+08:00 ] 183.60.35.29 /weiphp/index.php?s=/home/user/login.html
+NOTIC: [8] Undefined index: uid D:\wwwroot\zhangzizhongon\wwwroot\weiphp\ThinkPHP\Library\Think\Controller.class.php 第 135 行.
+SQL: SHOW COLUMNS FROM `wp_member` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_member` WHERE ( `uid` = 0 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: uid D:\wwwroot\zhangzizhongon\wwwroot\weiphp\ThinkPHP\Library\Think\Controller.class.php 第 140 行.
+NOTIC: [8] Undefined index: from D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Home\Controller\UserController.class.php 第 107 行.
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 40 行.
+SQL: SHOW COLUMNS FROM `wp_addons` [ RunTime:0.015625s ]
+SQL: SELECT * FROM `wp_addons` WHERE ( `status` = 1 ) AND ( `type` = 1 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_addons` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_member_public` [ RunTime:0.015625s ]
+SQL: SELECT * FROM `wp_member_public` WHERE ( `token` = -1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_member_public_link` [ RunTime:0.000000s ]
+SQL: SELECT `addon_status` FROM `wp_member_public_link` WHERE ( `uid` = null ) AND ( `mp_id` = null ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.140625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.140625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-24T16:26:41+08:00 ] 180.153.201.24 /weiphp/index.php?s=/home/user/login.html
+NOTIC: [8] Undefined index: uid D:\wwwroot\zhangzizhongon\wwwroot\weiphp\ThinkPHP\Library\Think\Controller.class.php 第 135 行.
+SQL: SHOW COLUMNS FROM `wp_member` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_member` WHERE ( `uid` = 0 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: uid D:\wwwroot\zhangzizhongon\wwwroot\weiphp\ThinkPHP\Library\Think\Controller.class.php 第 140 行.
+NOTIC: [8] Undefined index: from D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Home\Controller\UserController.class.php 第 107 行.
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 40 行.
+SQL: SHOW COLUMNS FROM `wp_addons` [ RunTime:0.015625s ]
+SQL: SELECT * FROM `wp_addons` WHERE ( `status` = 1 ) AND ( `type` = 1 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_addons` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_member_public` [ RunTime:0.015625s ]
+SQL: SELECT * FROM `wp_member_public` WHERE ( `token` = -1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_member_public_link` [ RunTime:0.000000s ]
+SQL: SELECT `addon_status` FROM `wp_member_public_link` WHERE ( `uid` = null ) AND ( `mp_id` = null ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.078125s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078125s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-24T16:26:43+08:00 ] 180.153.201.24 /weiphp/index.php?s=/Home/User/verify.html
+NOTIC: [8] Undefined index: uid D:\wwwroot\zhangzizhongon\wwwroot\weiphp\ThinkPHP\Library\Think\Controller.class.php 第 135 行.
+SQL: SHOW COLUMNS FROM `wp_member` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_member` WHERE ( `uid` = 0 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: uid D:\wwwroot\zhangzizhongon\wwwroot\weiphp\ThinkPHP\Library\Think\Controller.class.php 第 140 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-24T16:40:15+08:00 ] 180.153.206.17 /weiphp/
+NOTIC: [8] Undefined index: uid D:\wwwroot\zhangzizhongon\wwwroot\weiphp\ThinkPHP\Library\Think\Controller.class.php 第 135 行.
+SQL: SHOW COLUMNS FROM `wp_member` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_member` WHERE ( `uid` = 0 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: uid D:\wwwroot\zhangzizhongon\wwwroot\weiphp\ThinkPHP\Library\Think\Controller.class.php 第 140 行.
+
+[ 2015-08-24T16:40:15+08:00 ] 180.153.206.17 /weiphp/index.php?s=/home/index/main.html
+NOTIC: [8] Undefined index: uid D:\wwwroot\zhangzizhongon\wwwroot\weiphp\ThinkPHP\Library\Think\Controller.class.php 第 135 行.
+SQL: SHOW COLUMNS FROM `wp_member` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_member` WHERE ( `uid` = 0 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: uid D:\wwwroot\zhangzizhongon\wwwroot\weiphp\ThinkPHP\Library\Think\Controller.class.php 第 140 行.
+
+[ 2015-08-24T16:40:15+08:00 ] 180.153.206.17 /weiphp/index.php?s=/home/user/login.html
+NOTIC: [8] Undefined index: uid D:\wwwroot\zhangzizhongon\wwwroot\weiphp\ThinkPHP\Library\Think\Controller.class.php 第 135 行.
+SQL: SHOW COLUMNS FROM `wp_member` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_member` WHERE ( `uid` = 0 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: uid D:\wwwroot\zhangzizhongon\wwwroot\weiphp\ThinkPHP\Library\Think\Controller.class.php 第 140 行.
+NOTIC: [8] Undefined index: from D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Home\Controller\UserController.class.php 第 107 行.
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 40 行.
+SQL: SHOW COLUMNS FROM `wp_addons` [ RunTime:0.015625s ]
+SQL: SELECT * FROM `wp_addons` WHERE ( `status` = 1 ) AND ( `type` = 1 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_addons` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_member_public` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_member_public` WHERE ( `token` = -1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_member_public_link` [ RunTime:0.015625s ]
+SQL: SELECT `addon_status` FROM `wp_member_public_link` WHERE ( `uid` = null ) AND ( `mp_id` = null ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.046875s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046875s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+

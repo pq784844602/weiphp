@@ -1,0 +1,44 @@
+<include file="./Addons/Hotel/View/default/Web/header.html"/>
+<body>
+	<div class="html">
+		<div class="main">
+			<header>
+	<a class="ico-hd arr-hd" href="javascript:history.go(-1);"></a>
+	<h1>订单详情</h1>
+</header>
+<div class="contxt cont-artical">
+	<div class="box-cont box-order">
+		<div class="hd">
+			<b>{$hotel['name']}</b>
+			<i>{$order['housename']}</i> | <i>{$order['num']}间</i>
+		</div>
+		<div class="bd box-txt">
+			<p><span>入住日期</span><b>{$order['startdate']}</b></p>
+			<p><span>离店日期</span><b>{$order['enddate']} </b></p>
+			<p><span>订单状态</span><if condition="$order['status'] eq 1"><b>完成入住</b><else /><b>已提交</b></if></p>
+		</div>
+		<div class="ft box-txt">
+			<p><span>手机：</span><b>{$order['tel']}</b></p>
+			<p><span>金额：</span><b>￥{$order['price']}</b></p>
+		</div>
+	</div>
+	<br><br>
+</div>
+		</div>
+	</div>
+</body>
+
+<script type="text/javascript">
+window.shareData = {  
+            "moduleName":"Hotels",
+            "moduleID":"{$hotel[0]['id']}",
+            "imgUrl": "{$hotel[0]['image']|get_cover_url}", 
+            "timeLineLink": "{:addons_url('Hotel://Web/index',array('token' => $this->token))}",
+            "sendFriendLink": "{:addons_url('Hotel://Web/index',array('token' => $this->token))}",
+            "weiboLink": "{:addons_url('Hotel://Web/index',array('token' => $this->token))}",
+            "tTitle": "{$metaTitle}",
+            "tContent": "{$metaTitle}"
+        };
+</script>
+{$shareScript}
+</html>

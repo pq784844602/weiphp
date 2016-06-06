@@ -1,0 +1,37 @@
+<include file="Public/mobile_head"/>
+<link href="{:ADDON_PUBLIC_PATH}/css/diy.css?v={:SITE_VERSION}" rel="stylesheet" type="text/css">
+<script src="{:ADDON_PUBLIC_PATH}/js/diy.js?v={:SITE_VERSION}" type="text/javascript"></script>
+<body>
+
+<div id="container" class="container body">
+<div id="phoneArea" class="mobile_show">
+  <div class="layout_row" data-type="1"> 
+    <!-- 每个布局里的模块处理 -->
+    <div class="layout_item">
+        <div class="widget_title">
+            <h2>购物车</h2>
+        </div>
+    
+      <div class="diy_shop shopdetail_simple_list">
+        <ul>
+          <volist name="list" id="product">
+            <li> <a href="{:addons_url('Shop://Shop/detail',array('id'=>$product[id]))}"> {$product.cover|get_img_html}
+              <h6>{$product.title}</h6>
+              <p class="price">￥{$product.discount_price}</p>
+              </a> 
+              <a href="###">删除</a>
+              </li>
+          </volist>
+        </ul></div>
+    </div>
+  </div>
+</div>
+</body>
+<script type="text/javascript">
+  	$(function(){
+		$('.layout_row').each(function(index, element) {
+            initItemLayoutAndAction($(this),$(this).data('type'),false);
+        });
+		})
+</script>
+</html>

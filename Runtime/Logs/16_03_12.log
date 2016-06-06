@@ -1,0 +1,180 @@
+[ 2016-03-12T02:06:34+08:00 ] 116.31.126.151 /weiphp/index.php?s=/addon/Forms/FormsValue/add/forms_id/15/token/gh_1d3c54b1ff0c.html&openid=-1
+SQL: SELECT * FROM `wp_addons` WHERE ( `name` = 'Forms' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: query D:\wwwroot\zhangzizhongon\wwwroot\weiphp\ThinkPHP\Common\functions.php 第 787 行.
+SQL: SHOW COLUMNS FROM `wp_tongji` [ RunTime:0.015625s ]
+SQL: SELECT * FROM `wp_tongji` WHERE ( `token` = 'gh_1d3c54b1ff0c' ) AND ( `day` = 20160312 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: INSERT INTO `wp_tongji` (`token`,`day`,`content`,`month`) VALUES ('gh_1d3c54b1ff0c',20160312,'a:1:{s:5:\"Forms\";i:1;}',201603) [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Addons\Forms\Controller\FormsValueController::lists() should be compatible with Home\Controller\AddonsController::lists($model = NULL, $page = 0) D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Addons\Forms\Controller\FormsValueController.class.php 第 7 行.
+NOTIC: [2048] Declaration of Addons\Forms\Controller\FormsValueController::edit() should be compatible with Home\Controller\AddonsController::edit($model = NULL, $id = 0) D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Addons\Forms\Controller\FormsValueController.class.php 第 7 行.
+NOTIC: [2048] Declaration of Addons\Forms\Controller\FormsValueController::add() should be compatible with Home\Controller\AddonsController::add($model = NULL) D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Addons\Forms\Controller\FormsValueController.class.php 第 7 行.
+NOTIC: [2048] Declaration of Addons\Forms\Controller\FormsValueController::del() should be compatible with Home\Controller\AddonsController::del($model = NULL, $ids = NULL) D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Addons\Forms\Controller\FormsValueController.class.php 第 7 行.
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:-0.109375s ]
+SQL: SELECT `public_name` FROM `wp_member_public` WHERE ( `token` = 'gh_1d3c54b1ff0c' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_follow` WHERE ( `token` = 'gh_1d3c54b1ff0c' ) AND ( `openid` = '-1' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: need_bind D:\wwwroot\zhangzizhongon\wwwroot\weiphp\ThinkPHP\Library\Think\Controller.class.php 第 211 行.
+NOTIC: [8] Undefined index: uid D:\wwwroot\zhangzizhongon\wwwroot\weiphp\ThinkPHP\Library\Think\Controller.class.php 第 243 行.
+SQL: SHOW COLUMNS FROM `wp_model` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_model` WHERE ( `name` = 'forms_value' ) LIMIT 1   [ RunTime:0.015625s ]
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+SQL: SHOW COLUMNS FROM `wp_forms` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_forms` WHERE ( `id` = 15 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_picture` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_picture` WHERE ( `status` = 1 ) AND ( `id` = 393 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_model` WHERE ( `id` = 71 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_forms_value` [ RunTime:0.015625s ]
+SQL: SELECT * FROM `wp_forms_value` WHERE ( `uid` = -6546 ) AND ( `forms_id` = 15 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_forms_attribute` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_forms_attribute` WHERE ( `forms_id` = 15 ) AND ( `token` = 'gh_1d3c54b1ff0c' ) ORDER BY sort asc, id asc  [ RunTime:0.000000s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Runtime\Cache\Home\8a711c5829a2c22d8eba4b89c2127d75.php 第 63 行.
+NOTIC: [8] Undefined variable: data D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Runtime\Cache\Home\8a711c5829a2c22d8eba4b89c2127d75.php 第 63 行.
+NOTIC: [8] Undefined variable: data D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Runtime\Cache\Home\8a711c5829a2c22d8eba4b89c2127d75.php 第 63 行.
+NOTIC: [8] Undefined variable: data D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Runtime\Cache\Home\8a711c5829a2c22d8eba4b89c2127d75.php 第 63 行.
+NOTIC: [8] Undefined variable: data D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Runtime\Cache\Home\8a711c5829a2c22d8eba4b89c2127d75.php 第 63 行.
+NOTIC: [8] Undefined variable: data D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Runtime\Cache\Home\8a711c5829a2c22d8eba4b89c2127d75.php 第 63 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Runtime\Cache\Home\8a711c5829a2c22d8eba4b89c2127d75.php 第 56 行.
+NOTIC: [8] Use of undefined constant value - assumed 'value' D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Runtime\Cache\Home\8a711c5829a2c22d8eba4b89c2127d75.php 第 56 行.
+NOTIC: [8] Undefined variable: data D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Runtime\Cache\Home\8a711c5829a2c22d8eba4b89c2127d75.php 第 176 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Runtime\Cache\Home\8a711c5829a2c22d8eba4b89c2127d75.php 第 177 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.093750s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.093750s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-12T15:01:06+08:00 ] 61.135.190.198 /weiphp/index.php
+NOTIC: [8] Undefined index: uid D:\wwwroot\zhangzizhongon\wwwroot\weiphp\ThinkPHP\Library\Think\Controller.class.php 第 135 行.
+SQL: SHOW COLUMNS FROM `wp_member` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_member` WHERE ( `uid` = 0 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: uid D:\wwwroot\zhangzizhongon\wwwroot\weiphp\ThinkPHP\Library\Think\Controller.class.php 第 140 行.
+
+[ 2016-03-12T15:01:07+08:00 ] 61.135.190.72 /weiphp/index.php?s=/home/index/main.html
+NOTIC: [8] Undefined index: uid D:\wwwroot\zhangzizhongon\wwwroot\weiphp\ThinkPHP\Library\Think\Controller.class.php 第 135 行.
+SQL: SHOW COLUMNS FROM `wp_member` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_member` WHERE ( `uid` = 0 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: uid D:\wwwroot\zhangzizhongon\wwwroot\weiphp\ThinkPHP\Library\Think\Controller.class.php 第 140 行.
+
+[ 2016-03-12T15:01:07+08:00 ] 61.135.190.198 /weiphp/index.php?s=/home/user/login.html
+NOTIC: [8] Undefined index: uid D:\wwwroot\zhangzizhongon\wwwroot\weiphp\ThinkPHP\Library\Think\Controller.class.php 第 135 行.
+SQL: SHOW COLUMNS FROM `wp_member` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_member` WHERE ( `uid` = 0 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: uid D:\wwwroot\zhangzizhongon\wwwroot\weiphp\ThinkPHP\Library\Think\Controller.class.php 第 140 行.
+NOTIC: [8] Undefined index: from D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Home\Controller\UserController.class.php 第 107 行.
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: _addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Runtime\Cache\Home\b171d71961885d3bf0f7a9b2e0867b01.php 第 40 行.
+SQL: SHOW COLUMNS FROM `wp_addons` [ RunTime:0.015625s ]
+SQL: SELECT * FROM `wp_addons` WHERE ( `status` = 1 ) AND ( `type` = 1 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_addons` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_member_public` [ RunTime:0.015625s ]
+SQL: SELECT * FROM `wp_member_public` WHERE ( `token` = -1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_member_public_link` [ RunTime:0.000000s ]
+SQL: SELECT `addon_status` FROM `wp_member_public_link` WHERE ( `uid` = null ) AND ( `mp_id` = null ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.390625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.390625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-12T20:51:29+08:00 ] 183.61.236.92 /weiphp/index.php?s=/addon/Forms/FormsValue/add/forms_id/15/token/gh_1d3c54b1ff0c.html&openid=-1
+SQL: SELECT * FROM `wp_addons` WHERE ( `name` = 'Forms' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: query D:\wwwroot\zhangzizhongon\wwwroot\weiphp\ThinkPHP\Common\functions.php 第 787 行.
+SQL: SHOW COLUMNS FROM `wp_tongji` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_tongji` WHERE ( `token` = 'gh_1d3c54b1ff0c' ) AND ( `day` = 20160312 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `wp_tongji` SET `content`='a:1:{s:5:\"Forms\";i:2;}' WHERE ( `token` = 'gh_1d3c54b1ff0c' ) AND ( `day` = 20160312 ) [ RunTime:0.015625s ]
+NOTIC: [2048] Declaration of Addons\Forms\Controller\FormsValueController::lists() should be compatible with Home\Controller\AddonsController::lists($model = NULL, $page = 0) D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Addons\Forms\Controller\FormsValueController.class.php 第 7 行.
+NOTIC: [2048] Declaration of Addons\Forms\Controller\FormsValueController::edit() should be compatible with Home\Controller\AddonsController::edit($model = NULL, $id = 0) D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Addons\Forms\Controller\FormsValueController.class.php 第 7 行.
+NOTIC: [2048] Declaration of Addons\Forms\Controller\FormsValueController::add() should be compatible with Home\Controller\AddonsController::add($model = NULL) D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Addons\Forms\Controller\FormsValueController.class.php 第 7 行.
+NOTIC: [2048] Declaration of Addons\Forms\Controller\FormsValueController::del() should be compatible with Home\Controller\AddonsController::del($model = NULL, $ids = NULL) D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Addons\Forms\Controller\FormsValueController.class.php 第 7 行.
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:-0.109375s ]
+SQL: SELECT `public_name` FROM `wp_member_public` WHERE ( `token` = 'gh_1d3c54b1ff0c' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_follow` WHERE ( `token` = 'gh_1d3c54b1ff0c' ) AND ( `openid` = '-1' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: need_bind D:\wwwroot\zhangzizhongon\wwwroot\weiphp\ThinkPHP\Library\Think\Controller.class.php 第 211 行.
+NOTIC: [8] Undefined index: uid D:\wwwroot\zhangzizhongon\wwwroot\weiphp\ThinkPHP\Library\Think\Controller.class.php 第 243 行.
+SQL: SHOW COLUMNS FROM `wp_model` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_model` WHERE ( `name` = 'forms_value' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+SQL: SHOW COLUMNS FROM `wp_forms` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_forms` WHERE ( `id` = 15 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_picture` [ RunTime:0.015625s ]
+SQL: SELECT * FROM `wp_picture` WHERE ( `status` = 1 ) AND ( `id` = 393 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_model` WHERE ( `id` = 71 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_forms_value` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_forms_value` WHERE ( `uid` = -6547 ) AND ( `forms_id` = 15 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_forms_attribute` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_forms_attribute` WHERE ( `forms_id` = 15 ) AND ( `token` = 'gh_1d3c54b1ff0c' ) ORDER BY sort asc, id asc  [ RunTime:0.000000s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Runtime\Cache\Home\8a711c5829a2c22d8eba4b89c2127d75.php 第 63 行.
+NOTIC: [8] Undefined variable: data D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Runtime\Cache\Home\8a711c5829a2c22d8eba4b89c2127d75.php 第 63 行.
+NOTIC: [8] Undefined variable: data D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Runtime\Cache\Home\8a711c5829a2c22d8eba4b89c2127d75.php 第 63 行.
+NOTIC: [8] Undefined variable: data D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Runtime\Cache\Home\8a711c5829a2c22d8eba4b89c2127d75.php 第 63 行.
+NOTIC: [8] Undefined variable: data D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Runtime\Cache\Home\8a711c5829a2c22d8eba4b89c2127d75.php 第 63 行.
+NOTIC: [8] Undefined variable: data D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Runtime\Cache\Home\8a711c5829a2c22d8eba4b89c2127d75.php 第 63 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Runtime\Cache\Home\8a711c5829a2c22d8eba4b89c2127d75.php 第 56 行.
+NOTIC: [8] Use of undefined constant value - assumed 'value' D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Runtime\Cache\Home\8a711c5829a2c22d8eba4b89c2127d75.php 第 56 行.
+NOTIC: [8] Undefined variable: data D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Runtime\Cache\Home\8a711c5829a2c22d8eba4b89c2127d75.php 第 176 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Runtime\Cache\Home\8a711c5829a2c22d8eba4b89c2127d75.php 第 177 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.140625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.140625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+

@@ -1,0 +1,65 @@
+[ 2016-05-03T16:20:34+08:00 ] 116.31.126.191 /weiphp/index.php?s=/addon/CustomMenu/CustomMenu/lists.html
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.093750s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.093750s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-03T16:20:34+08:00 ] 116.31.126.191 /weiphp/index.php?s=/addon/CustomMenu/CustomMenu/lists.html
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-03T16:59:16+08:00 ] 58.211.2.96 /weiphp/index.php?s=/addon/Donate/Donate/show/token/gh_2838ce7f0ead.html&getOpenId=1
+SQL: SELECT * FROM `wp_addons` WHERE ( `name` = 'Donate' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: query D:\wwwroot\zhangzizhongon\wwwroot\weiphp\ThinkPHP\Common\functions.php 第 787 行.
+SQL: SHOW COLUMNS FROM `wp_tongji` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_tongji` WHERE ( `token` = 'gh_2838ce7f0ead' ) AND ( `day` = 20160503 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: INSERT INTO `wp_tongji` (`token`,`day`,`content`,`month`) VALUES ('gh_2838ce7f0ead',20160503,'a:1:{s:6:\"Donate\";i:1;}',201605) [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Addons\Donate\Controller\DonateController::add() should be compatible with Home\Controller\AddonsController::add($model = NULL) D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Addons\Donate\Controller\DonateController.class.php 第 6 行.
+NOTIC: [2048] Declaration of Addons\Donate\Controller\DonateController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Addons\Donate\Controller\DonateController.class.php 第 6 行.
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:-0.078125s ]
+SQL: SELECT `public_name` FROM `wp_member_public` WHERE ( `token` = 'gh_2838ce7f0ead' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_follow` WHERE ( `token` = 'gh_2838ce7f0ead' ) AND ( `openid` = -1 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: need_bind D:\wwwroot\zhangzizhongon\wwwroot\weiphp\ThinkPHP\Library\Think\Controller.class.php 第 211 行.
+NOTIC: [8] Undefined index: uid D:\wwwroot\zhangzizhongon\wwwroot\weiphp\ThinkPHP\Library\Think\Controller.class.php 第 243 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+SQL: SELECT `addon_config` FROM `wp_member_public` WHERE ( `token` = 'gh_2838ce7f0ead' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_picture` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_picture` WHERE ( `status` = 1 ) AND ( `id` = 458 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: background D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Addons\Donate\Controller\BaseController.class.php 第 39 行.
+SQL: SHOW COLUMNS FROM `wp_addons` [ RunTime:0.000000s ]
+SQL: SELECT `addon_config` FROM `wp_member_public` WHERE ( `token` = 'gh_2838ce7f0ead' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_addons` WHERE ( `name` = 'DonatePay' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: openid D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Addons\Donate\Controller\DonateController.class.php 第 32 行.
+SQL: SELECT `addon_config` FROM `wp_member_public` WHERE ( `token` = 'gh_2838ce7f0ead' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_addons` WHERE ( `name` = 'DonatePay' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_donate` [ RunTime:0.000000s ]
+ERR: 1146:Table 'zhangzizhongon.wp_donate' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `wp_donate`
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+

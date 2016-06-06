@@ -1,0 +1,56 @@
+[ 2015-06-19T18:11:14+08:00 ] 211.97.130.160 /weiphp/index.php?s=/addon/Forms/FormsValue/add/model/71.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_member_public` [ RunTime:0.000000s ]
+SQL: SELECT `public_name` FROM `wp_member_public` WHERE ( `token` = 'gh_1d3c54b1ff0c' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_follow` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_follow` WHERE ( `token` = 'gh_1d3c54b1ff0c' ) AND ( `openid` = '-1' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `addon_config` FROM `wp_member_public` WHERE ( `token` = 'gh_1d3c54b1ff0c' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_addons` [ RunTime:0.015625s ]
+SQL: SELECT `config` FROM `wp_addons` WHERE ( `name` = 'UserCenter' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: need_bind D:\wwwroot\zhangzizhongon\wwwroot\weiphp\ThinkPHP\Library\Think\Controller.class.php 第 211 行.
+NOTIC: [8] Undefined index: uid D:\wwwroot\zhangzizhongon\wwwroot\weiphp\ThinkPHP\Library\Think\Controller.class.php 第 243 行.
+SQL: SELECT * FROM `wp_addons` WHERE ( `name` = 'Forms' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: query D:\wwwroot\zhangzizhongon\wwwroot\weiphp\ThinkPHP\Common\functions.php 第 787 行.
+SQL: SHOW COLUMNS FROM `wp_tongji` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_tongji` WHERE ( `token` = 'gh_1d3c54b1ff0c' ) AND ( `day` = 20150619 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `wp_tongji` SET `content`='a:8:{s:5:\"Forms\";i:50;s:4:\"Chat\";i:2;s:6:\"Wecome\";i:3;s:10:\"UserCenter\";i:6;s:10:\"CustomMenu\";i:58;s:11:\"CustomReply\";i:4;s:8:\"Leaflets\";i:1;s:6:\"Survey\";i:2;}' WHERE ( `token` = 'gh_1d3c54b1ff0c' ) AND ( `day` = 20150619 ) [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Addons\Forms\Controller\FormsValueController::lists() should be compatible with Home\Controller\AddonsController::lists($model = NULL, $page = 0) D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Addons\Forms\Controller\FormsValueController.class.php 第 7 行.
+NOTIC: [2048] Declaration of Addons\Forms\Controller\FormsValueController::edit() should be compatible with Home\Controller\AddonsController::edit($model = NULL, $id = 0) D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Addons\Forms\Controller\FormsValueController.class.php 第 7 行.
+NOTIC: [2048] Declaration of Addons\Forms\Controller\FormsValueController::add() should be compatible with Home\Controller\AddonsController::add($model = NULL) D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Addons\Forms\Controller\FormsValueController.class.php 第 7 行.
+NOTIC: [2048] Declaration of Addons\Forms\Controller\FormsValueController::del() should be compatible with Home\Controller\AddonsController::del($model = NULL, $ids = NULL) D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Addons\Forms\Controller\FormsValueController.class.php 第 7 行.
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:-0.046875s ]
+SQL: SELECT `public_name` FROM `wp_member_public` WHERE ( `token` = 'gh_1d3c54b1ff0c' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_follow` WHERE ( `token` = 'gh_1d3c54b1ff0c' ) AND ( `openid` = '-1' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: need_bind D:\wwwroot\zhangzizhongon\wwwroot\weiphp\ThinkPHP\Library\Think\Controller.class.php 第 211 行.
+NOTIC: [8] Undefined index: uid D:\wwwroot\zhangzizhongon\wwwroot\weiphp\ThinkPHP\Library\Think\Controller.class.php 第 243 行.
+SQL: SHOW COLUMNS FROM `wp_model` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_model` WHERE ( `name` = 'forms_value' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons D:\wwwroot\zhangzizhongon\wwwroot\weiphp\Application\Common\Common\function.php 第 465 行.
+SQL: SHOW COLUMNS FROM `wp_forms` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_forms` WHERE ( `id` = 15 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_picture` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_picture` WHERE ( `status` = 1 ) AND ( `id` = 393 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_model` WHERE ( `id` = 71 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_forms_value` [ RunTime:0.015625s ]
+SQL: SELECT * FROM `wp_forms_value` WHERE ( `uid` = -4316 ) AND ( `forms_id` = 15 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_forms_attribute` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_forms_attribute` WHERE ( `forms_id` = 15 ) AND ( `token` = 'gh_1d3c54b1ff0c' ) ORDER BY sort asc, id asc  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_model` WHERE ( `id` = 71 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_forms_value` [ RunTime:0.000000s ]
+SQL: SELECT `extend` FROM `wp_model` WHERE ( `id` = 71 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_attribute` [ RunTime:0.015625s ]
+SQL: SELECT * FROM `wp_attribute` WHERE ( `model_id` = 71 )  [ RunTime:0.000000s ]
+SQL: INSERT INTO `wp_forms_value` (`forms_id`,`id`,`value`,`uid`,`openid`,`cTime`,`token`) VALUES (15,0,'a:6:{s:4:\"name\";s:6:\"傅遥\";s:4:\"year\";s:4:\"1996\";s:6:\"branch\";s:12:\"英文学院\";s:6:\"mobile\";s:11:\"18650110710\";s:4:\"mail\";s:19:\"13696912435@163.com\";s:3:\"add\";s:33:\"厦门市思明区华侨海景城\";}',-4316,'-1',1434708674,'gh_1d3c54b1ff0c') [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_credit_data` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_credit_config` [ RunTime:0.015625s ]
+SQL: SELECT * FROM `wp_credit_config` WHERE ( token="0" or token="gh_1d3c54b1ff0c" )  [ RunTime:0.000000s ]
+SQL: INSERT INTO `wp_credit_data` (`credit_name`,`admin_uid`,`uid`,`cTime`,`token`,`experience`,`score`) VALUES ('forms',0,-4316,1434708674,'gh_1d3c54b1ff0c',0,0) [ RunTime:0.000000s ]
+SQL: SELECT sum(score) as score,sum(experience) as experience FROM `wp_credit_data` WHERE ( `uid` = -4316 ) AND ( `token` = 'gh_1d3c54b1ff0c' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `wp_follow` SET `score`=0,`experience`=0 WHERE ( `id` = -4316 ) [ RunTime:0.000000s ]
+

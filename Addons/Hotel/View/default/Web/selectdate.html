@@ -1,0 +1,93 @@
+<include file="./Addons/Hotel/View/default/Web/header.html"/>
+<body>
+	<div class="html">
+		<div class="main">
+			<header>
+				<a href="{:addons_url('Hotel://Web/index',array('token' => $this->token,'hid' => $hotel['id']))}" class="ico-hd arr-hd"></a>
+				<h1>选择日期</h1>
+				<a href="{:addons_url('Hotel://Web/my',array('token' => $this->token))}" class="ico-hd ico-order">我的订单</a>
+			</header>
+<div class="contxt cont-artical">
+  <div class="box-cont box-hotel">
+      <div class="hotel-th">
+      <span>
+      <a href="">
+      <img src="{$hotel.image|get_cover_url}">
+      </a>
+      </span>
+      </div>
+    <div class="hotel-td">
+      <p><span class="ico ico-comment" ><b>{$hotel['name']}</b></span><i class="arrow arr-small"></i></p>
+      <p><span class="ico ico-phone" onclick="javascript:window.location.href='tel:{$hotel['tel']}';">{$hotel['tel']}</span><i class="arrow arr-small"></i></p>
+    </div>
+  </div>
+  <div class="box-cont box-list">
+		<a href="{:addons_url('Hotel://Web/map',array('token' => $this->token,'hid' => $hotel['id']))}">
+			<span class="ico ico-location"> {$hotel['address']}</span>
+			<span class="arrow arr-small"></span>
+		</a>
+  </div>
+	<div class="box-cont box-half index-time">
+		<div class="hd">
+			<span class="ico ico-date">入住日期</span>
+			<p class="table">
+				<select id="select-s" name="hotel_room_order[check_in_date]">
+				<volist name="dates" id="d" key="i">
+					<if condition="$i eq 1">
+					<option value="{$d['k']}" selected>{$d['v']}</option>
+					<else />
+					<option value="{$d['k']}">{$d['v']}</option>
+					</if>
+				</volist>
+				</select>
+				<span class="td"><b id="time-s">{$dates[0]['v']}</b></span>
+				<span class="arrow arr-big"></span>
+			</p>
+		</div>
+		<div class="bd">
+			<span class="ico ico-date">退房日期</span>
+			<p class="table">
+				<select class="" id="select-e" name="hotel_room_order[check_in_date]">
+				<volist name="dates" id="d" key="i">
+					<if condition="$i eq 2">
+					<option value="{$d['k']}" selected>{$d['v']}</option>
+					<else />
+					<option value="{$d['k']}">{$d['v']}</option>
+					</if>
+				</volist>
+				</select>
+				<span class="td"><b id="time-e">{$dates[1]['v']}</b></span>
+				<span class="arrow arr-big"></span>
+			</p>
+		</div>
+	</div>
+	<div class="tcenter"><a class="btn btn-big to_book" onclick="javascript:toBook();">开始预订</a></div>
+</div>
+<script>
+function toBook(){
+	var check_in_date = $('#select-s').val(), check_out_date = $('#select-e').val();
+	if(check_in_date >= check_out_date){
+		alert('离店时间必须大于入住时间!');
+	}else{
+		window.location.href = "{:addons_url('Hotel://Web/hotel',array('token' => $this->token))}&check_in_date="+check_in_date+"&check_out_date="+check_out_date;
+	}
+}
+
+</script>
+		</div>
+	</div>
+</body>
+<script type="text/javascript">
+window.shareData = {  
+            "moduleName":"Hotels",
+            "moduleID":"{$hotel[0]['id']}",
+            "imgUrl": "{$hotel[0]['image']|get_cover_url}", 
+            "timeLineLink": "{:addons_url('Hotel://Web/index',array('token' => $this->token))}",
+            "sendFriendLink": "{:addons_url('Hotel://Web/index',array('token' => $this->token))}",
+            "weiboLink": "{:addons_url('Hotel://Web/index',array('token' => $this->token))}",
+            "tTitle": "{$metaTitle}",
+            "tContent": "{$metaTitle}"
+        };
+</script>
+{$shareScript}
+</html>

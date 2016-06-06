@@ -1,0 +1,33 @@
+<include file="./Addons/Hotel/View/default/Web/header.html"/>
+<body>
+	<div class="container">
+		<div class='banner'>
+			<img src = "{$hotel.image|get_cover_url}">
+		</div>
+		<div class="about">
+			<h2>酒店介绍</h2>
+			{$hotel.about}
+		</div>
+		<div class="nav-btn">
+			<div class="tel" onclick="javascript:window.location.href='tel:{$hotel['tel']}';"><span class="fa fa-phone"></span><span>{$hotel.tel}</span></div>
+			<div class="" onclick="javascript:window.location.href='{$url_selectdata}'"><i class="fa fa-shopping-cart"></i><span>在线订房</span></div>
+			<div class=""  onclick="javascript:window.location.href='{$url_map}'"><i class="fa fa-taxi"></i><span>{$hotel.address}</span></div>
+		</div>
+		</div>
+	</div>
+</body>
+
+<script type="text/javascript">
+window.shareData = {  
+            "moduleName":"Hotels",
+            "moduleID":"{$hotel[0]['id']}",
+            "imgUrl": "{$hotel[0]['image']|get_cover_url}", 
+            "timeLineLink": "{:addons_url('Hotel://Web/index',array('token' => $this->token))}",
+            "sendFriendLink": "{:addons_url('Hotel://Web/index',array('token' => $this->token))}",
+            "weiboLink": "{:addons_url('Hotel://Web/index',array('token' => $this->token))}",
+            "tTitle": "{$metaTitle}",
+            "tContent": "{$metaTitle}"
+        };
+</script>
+{$shareScript}
+</html>

@@ -1,0 +1,44 @@
+<include file="./Addons/Hotel/View/default/Web/header.html"/>
+<body>
+	<div class="html">
+		<div class="main">
+			<header>
+				<h1>酒店列表</h1>
+			</header>
+			<div class="contxt cont-artical">
+				<volist name="hotel" id="ho"> 
+				<div class="box-cont box-list-hotel">
+					<div class="list-li" onclick="javascript:window.location.href='{:addons_url('Hotel://Web/selectdate',array('token' => $this->token, 'hid' => $ho['id']))}'">
+					<div class="hd"><img src="{$ho.image|get_cover_url}"></div>
+					<div class="bd">
+					<b>{$ho.name}</b>
+					<p>
+					<span class="tleft">{$ho.address}</span>
+					<span><em>￥{$ho.price}</em>起</span>
+					</p>
+					<!-- <p><span>3条评论</span></p> -->
+					</div>
+					<div class="ft"><span class="arrow arr-small"></span></div>
+					</div>
+				</div>
+				</volist>
+				<div class="tcenter"></div>
+				<div class="tcenter"><div class="isloading loading" style="display: none">加载中...</div></div>
+			</div>
+		</div>
+	</div>
+</body>
+<script type="text/javascript">
+window.shareData = {  
+            "moduleName":"Hotels",
+            "moduleID":"{$hotel[0]['id']}",
+            "imgUrl": "{$hotel[0]['image']|get_cover_url}", 
+            "timeLineLink": "{:addons_url('Hotel://Web/index',array('token' => $this->token))}",
+            "sendFriendLink": "{:addons_url('Hotel://Web/index',array('token' => $this->token))}",
+            "weiboLink": "{:addons_url('Hotel://Web/index',array('token' => $this->token))}",
+            "tTitle": "{$metaTitle}",
+            "tContent": "{$metaTitle}"
+        };
+</script>
+{$shareScript}
+</html>
