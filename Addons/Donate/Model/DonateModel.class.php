@@ -30,8 +30,12 @@ class DonateModel extends Model{
 	 * 	作用：生成可以获得code的url
 	 */
 	
-	public function createOauthUrlForCode(){
-		$redirectUrl = $this->payConfig['JS_API_CALL_URL'];
+	public function createOauthUrlForCode($url=""){
+		if(!empty($url)){
+			$redirectUrl = $url;
+		}else{
+			$redirectUrl = $this->payConfig['JS_API_CALL_URL'];
+		}
 		$urlObj["appid"] = $this->payConfig['APPID'];
 		$urlObj["redirect_uri"] = "$redirectUrl";
 		$urlObj["response_type"] = "code";

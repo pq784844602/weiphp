@@ -31,6 +31,16 @@ class BaseController extends AddonsController {
 		$res ['url'] = addons_url ( 'Donate://list/lists' );
 		$res ['class'] = $controller == 'list' ? 'current' : '';
 		$nav [] = $res;	
+
+		$res ['title'] = '二维码捐款分类';
+		$res ['url'] = addons_url ( 'Donate://CategoryCode/lists' );
+		$res ['class'] = $controller == 'categorycode' ? 'current' : '';
+		$nav [] = $res;
+
+		$res ['title'] = '二维码捐款记录';
+		$res ['url'] = addons_url ( 'Donate://ListCode/lists' );
+		$res ['class'] = $controller == 'listCode' ? 'current' : '';
+		$nav [] = $res;	
 				
 		$this->assign ( 'nav', $nav );
 		

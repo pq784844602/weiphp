@@ -56,8 +56,66 @@ class DonateController extends BaseController{
 			$this->assign ('successUrl',$payConfig['SUCCESS_URL']);
 			$this->display ( $html );
 		}
-		
 	}
+
+	//二维码页面
+	function code($html = 'code') {
+		$payConfig = D ( 'Common/AddonConfig' )->get ( 'DonatePay' );
+		$map ['token'] = get_token ();
+		$map ['is_show'] = 1;
+		$openid =  $_COOKIE["openid"];
+		if (empty($openid) && ( !isset($_GET['state']) ||$_GET['state'] !='STATE'))
+		{
+			//触发微信返回code码
+			$return_url = "http://www.zhangzizhong.net/weiphp/index.php?s=/addon/Donate/Donate/code/token/gh_2838ce7f0ead.html";
+			$url = D('Addons://Donate/Donate')->createOauthUrlForCode($return_url);
+			Header("Location: $url"); 
+		}else{
+			if(empty($openid)){
+				$donateModel = D('Addons://Donate/Donate');
+				$code = $_GET['code'];
+	    		$donateModel->setCode($code);
+	    		$openid = $donateModel->getOpenId();
+	    		setcookie('openid',$openid,time()+60);
+			}
+			$this->model = $this->getModel ( 'donate_list' );
+			$success_url = "http://www.zhangzizhong.net/weiphp/index.php?s=/addon/Donate/Donate/success/token/gh_2838ce7f0ead.html";
+			$fields = get_model_attribute ( $this->model ['id'] );
+			$this->assign ( 'fields', $fields );
+			$this->assign ( 'openid', $openid );
+			$this->assign ( 'page_title', $this->config['title'] );
+			$this->assign ('successUrl',$success_url);
+			$this->display ( $html );
+		}
+	}
+    //二维码捐款成功后页面
+    function success($html = 'success')
+    {
+    	$map ['token'] = get_token ();
+		$map ['is_show'] = 1;
+		$category = M ( 'donate_code_category' )->where ( $map )->order ( 'sort asc, id desc' )->select ();
+		$this->assign ( 'category', $category );
+		
+    	$this->model = $this->getModel ( 'donate_list_code' );
+    	$fields = get_model_attribute ( $this->model ['id'] );
+		$this->assign ( 'fields', $fields );
+    	$this->display ( $html );
+    }
+    //添加捐款记录---二维码
+    function addCode(){
+    	$donate = D('donate_list_code');
+    	$data = $donate->create();
+    	if($data){
+    		$pid = $donate->add('','','',true);
+    		if(false !== $pid){
+    			$tip = '提交成功，谢谢参与';
+        		$res['status'] =1;
+        		$res['info'] =$tip;
+        		$this->render($res);
+        		exit();
+    		}
+    	}
+    }
 	//添加捐款记录
 	function add(){
 		$openId = I('openId');
